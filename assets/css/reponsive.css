@@ -1,0 +1,36 @@
+
+@media(max-width: 739px){
+    #header .title-header{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .nav .nav-list{
+        display: block;
+        
+    }
+    
+    .s-col-full{
+        width: 100%;
+    }
+    .s-none{
+        display: none;
+    }
+    .about-sub .about-gird{
+        grid-template-columns: auto;
+        row-gap: 50px;
+    }
+    #portfolio .gird-port{
+        grid-template-columns: auto;
+    }
+    .form-contact {
+        padding: 8px 0;
+    }
+    .nav .nav-search{
+        display: none;
+    }
+    
+    .nav .nav-menu-mobile{
+        display: block;
+    }
+
+}
